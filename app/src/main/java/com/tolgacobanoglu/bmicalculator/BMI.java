@@ -20,8 +20,7 @@ public class BMI
 
     public String state()
     {
-        String state;
-        double result = calculate();
+        double result = this.calculate();
 
         if (result < 18.5)
         {
